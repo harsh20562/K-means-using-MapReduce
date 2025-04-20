@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+import "status.proto";
+
+service ReducerService {
+  rpc Reduce (ReduceRequest) returns (ReduceResponse) {};
+}
+
+message ReduceRequest {
+  int32 id = 1;
+  repeated int32 mapper_ports = 2;
+}
+
+message CentroidEntry {
+  int32 id = 1;
+  float x = 2;
+  float y = 3;
+}
+
+message ReduceResponse {
+  Status status = 1;
+  repeated CentroidEntry centroids = 2;
+}

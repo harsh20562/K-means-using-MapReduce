@@ -1,0 +1,33 @@
+syntax = "proto3";
+
+import "status.proto";
+
+service MapperService {
+  rpc Map (MapRequest) returns (MapResponse) {};
+  rpc GetPartition (PartitionRequest) returns (PartitionResponse) {};
+}
+
+message MapRequest {
+  int32 left_index = 1;
+  int32 right_index = 2;
+  int32 NoOfReducers = 3;
+}
+
+message MapResponse {
+  Status status = 1;
+}
+
+message PartitionRequest {
+  int32 index = 1;
+}
+
+message Entry {
+  int32 centroidID = 1;
+  float x = 2;
+  float y = 3;
+}
+
+message PartitionResponse {
+  Status status = 1;
+  repeated Entry partition = 2;
+}

@@ -1,0 +1,101 @@
+Centroids initialized:
+8.3,2.9
+8.1,3.4
+Iteration 0 currently running
+gRPC call sent to Mapper 0 for iteration 0 | port No. = 50000
+gRPC call sent to Mapper 1 for iteration 0 | port No. = 50001
+gRPC call sent to Mapper 2 for iteration 0 | port No. = 50002
+gRPC call sent to Mapper 3 for iteration 0 | port No. = 50003
+Mapper 0 failed mapping for iteration 0 | Status = 0 | port No. = 50000
+Mapper 1 failed mapping for iteration 0 | Status = 0 | port No. = 50001
+Mapper 2 completed mapping for iteration 0 | Status = 1 | port No. = 50002
+Mapper 3 completed mapping for iteration 0 | Status = 1 | port No. = 50003
+gRPC call sent to Mapper 3 for iteration 0 | port No. = 50003
+gRPC call sent to Mapper 0 for iteration 0 | port No. = 50000
+Mapper 3 failed mapping for iteration 0 | Status = 0 | port No. = 50003
+Mapper 0 completed mapping for iteration 0 | Status = 1 | port No. = 50000
+gRPC call sent to Mapper 3 for iteration 0 | port No. = 50003
+Mapper 3 completed mapping for iteration 0 | Status = 1 | port No. = 50003
+gRPC call sent to Reducer 1 for iteration 0 | port No. = 60001
+gRPC call sent to Reducer 2 for iteration 0 | port No. = 60002
+gRPC call sent to Reducer 3 for iteration 0 | port No. = 60003
+gRPC call sent to Reducer 0 for iteration 0 | port No. = 60000
+Reducer 1 failed reducing for iteration 0 | Status = 0 | port No. = 60001
+Reducer 3 completed reducing for iteration 0 | Status = 1 | port No. = 60003
+Reducer 2 completed reducing for iteration 0 | Status = 1 | port No. = 60002
+Reducer 0 completed reducing for iteration 0 | Status = 1 | port No. = 60000
+gRPC call sent to Reducer 1 for iteration 0 | port No. = 60001
+Reducer 1 failed reducing for iteration 0 | Status = 0 | port No. = 60001
+gRPC call sent to Reducer 1 for iteration 0 | port No. = 60001
+Reducer 1 failed reducing for iteration 0 | Status = 0 | port No. = 60001
+gRPC call sent to Reducer 1 for iteration 0 | port No. = 60001
+Reducer 1 failed reducing for iteration 0 | Status = 0 | port No. = 60001
+gRPC call sent to Reducer 1 for iteration 0 | port No. = 60001
+Reducer 1 failed reducing for iteration 0 | Status = 0 | port No. = 60001
+gRPC call sent to Reducer 1 for iteration 0 | port No. = 60001
+Reducer 1 completed reducing for iteration 0 | Status = 1 | port No. = 60001
+Centroids for iteration 0:
+9.627778053283691,0.9166666865348816
+0.46153849363327026,7.776923179626465
+Iteration 1 currently running
+gRPC call sent to Mapper 1 for iteration 1 | port No. = 50001
+gRPC call sent to Mapper 2 for iteration 1 | port No. = 50002
+gRPC call sent to Mapper 3 for iteration 1 | port No. = 50003
+gRPC call sent to Mapper 0 for iteration 1 | port No. = 50000
+Mapper 3 failed mapping for iteration 1 | Status = 0 | port No. = 50003
+Mapper 0 failed mapping for iteration 1 | Status = 0 | port No. = 50000
+Mapper 2 completed mapping for iteration 1 | Status = 1 | port No. = 50002
+Mapper 1 completed mapping for iteration 1 | Status = 1 | port No. = 50001
+gRPC call sent to Mapper 1 for iteration 1 | port No. = 50001
+gRPC call sent to Mapper 3 for iteration 1 | port No. = 50003
+Mapper 1 completed mapping for iteration 1 | Status = 1 | port No. = 50001
+Mapper 3 completed mapping for iteration 1 | Status = 1 | port No. = 50003
+gRPC call sent to Reducer 3 for iteration 1 | port No. = 60003
+gRPC call sent to Reducer 0 for iteration 1 | port No. = 60000
+gRPC call sent to Reducer 2 for iteration 1 | port No. = 60002
+gRPC call sent to Reducer 1 for iteration 1 | port No. = 60001
+Reducer 0 failed reducing for iteration 1 | Status = 0 | port No. = 60000
+Reducer 3 failed reducing for iteration 1 | Status = 0 | port No. = 60003
+Reducer 2 completed reducing for iteration 1 | Status = 1 | port No. = 60002
+Reducer 1 completed reducing for iteration 1 | Status = 1 | port No. = 60001
+gRPC call sent to Reducer 0 for iteration 1 | port No. = 60000
+gRPC call sent to Reducer 3 for iteration 1 | port No. = 60003
+Reducer 0 failed reducing for iteration 1 | Status = 0 | port No. = 60000
+Reducer 3 completed reducing for iteration 1 | Status = 1 | port No. = 60003
+gRPC call sent to Reducer 0 for iteration 1 | port No. = 60000
+Reducer 0 completed reducing for iteration 1 | Status = 1 | port No. = 60000
+Centroids for iteration 1:
+-0.17500001192092896,8.141666412353516
+9.547368049621582,1.0473684072494507
+Iteration 2 currently running
+gRPC call sent to Mapper 1 for iteration 2 | port No. = 50001
+gRPC call sent to Mapper 0 for iteration 2 | port No. = 50000
+gRPC call sent to Mapper 3 for iteration 2 | port No. = 50003
+gRPC call sent to Mapper 2 for iteration 2 | port No. = 50002
+Mapper 2 failed mapping for iteration 2 | Status = 0 | port No. = 50002
+Mapper 3 failed mapping for iteration 2 | Status = 0 | port No. = 50003
+Mapper 0 completed mapping for iteration 2 | Status = 1 | port No. = 50000
+Mapper 1 completed mapping for iteration 2 | Status = 1 | port No. = 50001
+gRPC call sent to Mapper 0 for iteration 2 | port No. = 50000
+gRPC call sent to Mapper 2 for iteration 2 | port No. = 50002
+Mapper 0 failed mapping for iteration 2 | Status = 0 | port No. = 50000
+Mapper 2 completed mapping for iteration 2 | Status = 1 | port No. = 50002
+gRPC call sent to Mapper 0 for iteration 2 | port No. = 50000
+Mapper 0 failed mapping for iteration 2 | Status = 0 | port No. = 50000
+gRPC call sent to Mapper 3 for iteration 2 | port No. = 50003
+Mapper 3 completed mapping for iteration 2 | Status = 1 | port No. = 50003
+gRPC call sent to Reducer 2 for iteration 2 | port No. = 60002
+gRPC call sent to Reducer 0 for iteration 2 | port No. = 60000
+gRPC call sent to Reducer 3 for iteration 2 | port No. = 60003
+gRPC call sent to Reducer 1 for iteration 2 | port No. = 60001
+Reducer 3 failed reducing for iteration 2 | Status = 0 | port No. = 60003
+Reducer 1 failed reducing for iteration 2 | Status = 0 | port No. = 60001
+Reducer 2 completed reducing for iteration 2 | Status = 1 | port No. = 60002
+Reducer 0 completed reducing for iteration 2 | Status = 1 | port No. = 60000
+gRPC call sent to Reducer 1 for iteration 2 | port No. = 60001
+gRPC call sent to Reducer 3 for iteration 2 | port No. = 60003
+Reducer 1 failed reducing for iteration 2 | Status = 0 | port No. = 60001
+Reducer 3 completed reducing for iteration 2 | Status = 1 | port No. = 60003
+gRPC call sent to Reducer 1 for iteration 2 | port No. = 60001
+Reducer 1 completed reducing for iteration 2 | Status = 1 | port No. = 60001
+Converged at iteration 2
